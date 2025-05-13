@@ -39,3 +39,8 @@ void addNode()
         }
         // jika list kosong, maka node next nya adalah START
         newNode->next = START; // step 3: make the new node point to the first node
+        // kondisi jika start tidak memiliki nilai atau tidak kosong
+        if (START != NULL)
+        {
+            START->prev = newNode; // step 4: make the first node point to the node
+        }
