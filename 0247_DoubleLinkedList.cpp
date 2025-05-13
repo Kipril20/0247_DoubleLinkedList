@@ -50,3 +50,9 @@ void addNode()
     }
     // kondisi jika semua kondisi if tidak terpenuhi
     else
+    {
+
+        // insert the new node in the middle or at the end
+        // set nilai current = start dan nilai previous = null
+        Node *current = START; // step 1.a: start from the first node
+        Node *previous = NULL; // step 1.b: previous node is Null initially
