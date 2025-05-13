@@ -79,3 +79,5 @@ void addNode()
         {
             previous->next = newNode; // step 7: Make the next field of the previous
         }
+        // kondisi jika if previous sama dengan null
+        else
