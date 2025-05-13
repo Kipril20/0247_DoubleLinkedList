@@ -85,3 +85,8 @@ void addNode()
             // if previous is still NULL, it means newNode is now the first node
             START = newNode;
         }
+    }
+}
+
+// pembuatan function search untuk mencari data
+bool search(int rollNo, Node **previous, Node **current)
